@@ -1,4 +1,6 @@
-# Trabalhos PDI - UNIFEI <img src="http://site.emepro.org/wp/wp-content/uploads/2015/10/unifei_r.png" width="145" height="100"/>
+<img src="http://site.emepro.org/wp/wp-content/uploads/2015/10/unifei_r.png" width="145" height="100"/>
+
+# Trabalhos PDI - UNIFEI
 
 Repositório para armazenar os trabalhos relacionados a disciplina Processamento Digital de Imagens do curso de Ciência da Computação da Universidade Federal de Itajubá (1/2017).
 
