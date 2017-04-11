@@ -1,4 +1,10 @@
-# PDI-UNIFEI
+![alt text](http://site.emepro.org/wp/wp-content/uploads/2015/10/unifei_r.png "Logo UNIFEI")
+# Trabalhos PDI - UNIFEI 
+
+Repositório para armazenar os trabalhos relacionados a disciplina Processamento Digital de Imagens do curso de Ciência da Computação da Universidade Federal de Itajubá (1/2017).
+
+> Tecnologias utilizadas:
+> 1. JAVA
 
 ## Imagens Sintéticas
 * Trab02 - Convolução
