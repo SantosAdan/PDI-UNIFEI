@@ -18,13 +18,7 @@ public class MatrizController {
 		this.desenho = desenho;
 	}
 
-	/**
-	 * 
-	 * @param p1
-	 * @param p2
-	 * @return
-	 */
-	private double encontraAltura(Point p1, Point p2)
+	public double encontraAltura(Point p1, Point p2)
 	{
 		double y1, y2, largura;
 		
@@ -39,14 +33,8 @@ public class MatrizController {
 		
 		return largura;
 	}
-	
-	/**
-	 * 
-	 * @param p1
-	 * @param p2
-	 * @return
-	 */
-	private double encontraLargura(Point p1, Point p2)
+
+	public double encontraLargura(Point p1, Point p2)
 	{
 		double x1, x2, altura;
 		
@@ -62,23 +50,65 @@ public class MatrizController {
 		return altura;
 	}
 	
-	public Matriz verificaContido(ArrayList<Matriz> listaMatrizes, Point ponto)
+	public Point[][] paraMatriz(ArrayList<Matriz> listaMatrizes, int tamanho){
+        Point[][] matrizRetorno = new Point[tamanho+1][tamanho+1];
+       
+        for(int u=0;u<tamanho*tamanho;u++){
+        	Matriz matriz = listaMatrizes.get(u);
+        	matrizRetorno[matriz.getLinha()][matriz.getColuna()] = matriz.getPontoInicial();
+        }
+       
+        return matrizRetorno;
+    }
+   
+    public Color[][] paraMatrizCores(ArrayList<Matriz> listaMatrizes, int tamanho){
+        Color[][] matrizRetorno = new Color[tamanho+1][tamanho+1];
+       
+        for(int u=0;u<tamanho*tamanho;u++){
+        	Matriz matriz = listaMatrizes.get(u);
+        	matrizRetorno[matriz.getLinha()][matriz.getColuna()] = matriz.getColor();
+        }
+       
+        return matrizRetorno;
+    }
+    
+    private ArrayList<Matriz> atualizaPosicoes(ArrayList<Matriz> lista, int tamanho)
+    {
+    	ArrayList<Matriz> listaMatrizes = new ArrayList<Matriz>();
+        int counter = 0;
+        for(int i=1;i<=tamanho;i++){
+            for(int u=1;u<=tamanho;u++){
+            	Matriz matriz = lista.get(counter);
+            	matriz.setLinha(i);
+            	matriz.setColuna(u);
+                listaMatrizes.add(matriz);
+                counter++;
+            }
+        }
+        return listaMatrizes;
+    }
+    public ArrayList<Matriz> desenhaMatrizLoad(ArrayList<Matriz> listaMatrizes, int tamanho){
+        int altura = (int) encontraAltura(listaMatrizes.get(0).getPontoInicial(),listaMatrizes.get(listaMatrizes.size()-1).getPontoFinal());
+        int largura = (int) encontraLargura(listaMatrizes.get(0).getPontoInicial(),listaMatrizes.get(listaMatrizes.size()-1).getPontoFinal());
+        
+        int divisaoAltura = altura/tamanho;
+        int divisaoLargura = largura/tamanho;
+        for(int x=0;x<tamanho*tamanho;x++){
+            desenho.setColor(Color.BLACK);
+            desenho.drawRect(listaMatrizes.get(x).getPontoInicial().x, listaMatrizes.get(x).getPontoInicial().y, divisaoLargura, divisaoAltura);
+            desenho.setColor(listaMatrizes.get(x).getColor());
+            desenho.fillRect(listaMatrizes.get(x).getPontoInicial().x, listaMatrizes.get(x).getPontoInicial().y, divisaoLargura, divisaoAltura);
+        }
+        listaMatrizes = atualizaPosicoes(listaMatrizes,tamanho);
+        return listaMatrizes;
+       
+    }
+    
+    
+	// ========================================================================================================
+	public ArrayList<Matriz> desenhaMatriz(Point pontoInicial, Point pontoFinal, int tamanho)
 	{
-		Matriz matrizEncontrada = new Matriz();
-		
-		for(Matriz matriz : listaMatrizes) {
-			
-			if( (ponto.x > matriz.getPontoInicial().x && ponto.y > matriz.getPontoInicial().y) && (ponto.x < matriz.getPontoFinal().x && ponto.y < matriz.getPontoFinal().y) ) {
-				matrizEncontrada = matriz;
-			}
-		}
-		
-		return matrizEncontrada;
-	}
-	
-	public ArrayList<Matriz> desenhaMatriz(Point pontoInicial, Point pontoFinal)
-	{
-		final int largura, altura, tamanho;
+		final int largura, altura;
 		int larguraQuadrado, alturaQuadrado, xAux, yAux;
 		ArrayList<Matriz> listaMatrizes = new ArrayList<Matriz>();
 		Matriz novaMatriz;
@@ -88,7 +118,6 @@ public class MatrizController {
 		altura = (int) encontraAltura(pontoInicial, pontoFinal);
 		
 		// CALCULA A ESCALA DA IMAGEM
-		tamanho = 5;
 		larguraQuadrado = largura/tamanho;
 		alturaQuadrado = altura/tamanho;
 		
@@ -110,7 +139,6 @@ public class MatrizController {
 			yAux = pontoInicial.y;
 		}
 		
-		
 		Point novoInicial = new Point(xAux, yAux);
 		
 		// DESENHA OS RETÂNGULOS QUE IRÃO COMPOR A MATRIZ
@@ -121,7 +149,7 @@ public class MatrizController {
 				desenho.drawRect(xAux, yAux, larguraQuadrado, alturaQuadrado);
 				
 				// Adiciona o retângulo na lista de matrizes
-				novaMatriz = new Matriz(new Point(xAux, yAux), new Point(xAux+larguraQuadrado, yAux+alturaQuadrado), Color.BLACK);
+				novaMatriz = new Matriz(new Point(xAux, yAux), new Point(xAux+larguraQuadrado, yAux+alturaQuadrado), Color.LIGHT_GRAY, i, j);
 				listaMatrizes.add(novaMatriz);
 				
 				xAux += larguraQuadrado; // Desloca o x para o x do ponto inicial do próximo retângulo
@@ -134,15 +162,155 @@ public class MatrizController {
 		return listaMatrizes;
 	}
 	
-	public void colorirMatriz(Matriz matrizColorir, Color cor)
+	public void desenhaMatrizLista(ArrayList<Matriz> listaMatrizes, Point pontoInicial, Point pontoFinal, int tamanho)
 	{
-		Point pontoInicial = matrizColorir.getPontoInicial();
-		Point pontoFinal = matrizColorir.getPontoFinal();
+		int largura, altura, larguraQuadrado, alturaQuadrado;
 		
-		int largura = (int) encontraLargura(pontoInicial, pontoFinal);
-		int altura = (int) encontraAltura(pontoInicial, pontoFinal);
+		largura = (int) encontraLargura(pontoInicial, pontoFinal);
+		altura = (int) encontraAltura(pontoInicial, pontoFinal);
+		// CALCULA A ESCALA DA IMAGEM
+		larguraQuadrado = largura/tamanho;
+		alturaQuadrado = altura/tamanho;
+				
+		for(Matriz matrizAux : listaMatrizes) {
+			desenho.setColor(matrizAux.getColor());
+			desenho.drawRect(matrizAux.getPontoInicial().x, matrizAux.getPontoInicial().y, larguraQuadrado, alturaQuadrado);
+			desenho.fillRect(matrizAux.getPontoInicial().x, matrizAux.getPontoInicial().y, larguraQuadrado, alturaQuadrado);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param listaMatrizes
+	 * @param ponto
+	 * @return
+	 */
+	private Matriz verificaContido(ArrayList<Matriz> listaMatrizes, Point ponto)
+	{
+		Matriz matrizEncontrada = new Matriz();
 		
-		desenho.setColor(cor);
-		desenho.fillRect(pontoInicial.x, pontoInicial.y, largura, altura);
+		for(Matriz matriz : listaMatrizes) {
+			
+			if( (ponto.x > matriz.getPontoInicial().x && ponto.y > matriz.getPontoInicial().y) && (ponto.x < matriz.getPontoFinal().x && ponto.y < matriz.getPontoFinal().y) ) {
+				matrizEncontrada = matriz;
+			}
+		}
+		
+		return matrizEncontrada;
+	}
+	
+	/**
+	 * 
+	 * @param listaMatrizes
+	 * @param ponto
+	 * @return
+	 */
+	private ArrayList<Matriz> atualizaLista(ArrayList<Matriz> listaMatrizes, Point ponto)
+	{	
+		Matriz matrizEncontrada = new Matriz();
+		
+		for(Matriz matriz : listaMatrizes) {
+			
+			if( (ponto.x > matriz.getPontoInicial().x && ponto.y > matriz.getPontoInicial().y) && (ponto.x < matriz.getPontoFinal().x && ponto.y < matriz.getPontoFinal().y) ) {
+				matrizEncontrada = matriz;
+			}
+		}
+		
+		listaMatrizes.remove(matrizEncontrada);
+		return listaMatrizes;
+	}
+	
+	/**
+	 * 
+	 * @param listaMatrizes
+	 * @param pontoSelecionado
+	 * @param cor
+	 * @return
+	 */
+	public ArrayList<Matriz> colorirMatriz(ArrayList<Matriz> listaMatrizes, Point pontoSelecionado, Color cor)
+	{
+		ArrayList<Matriz> novaLista = new ArrayList<Matriz>();
+		Matriz matrizColorir = verificaContido(listaMatrizes, pontoSelecionado); // Encontra região que deve ser colorida
+		
+		if(matrizColorir != null) {
+			Point pontoInicial = matrizColorir.getPontoInicial();
+			Point pontoFinal = matrizColorir.getPontoFinal();
+			
+			int largura = (int) encontraLargura(pontoInicial, pontoFinal);
+			int altura = (int) encontraAltura(pontoInicial, pontoFinal);
+			
+			novaLista = atualizaLista(listaMatrizes, pontoSelecionado); // Remove região que deve ser colorida da lista
+			matrizColorir.setColor(cor);
+			novaLista.add(matrizColorir); // Adiciona na lista a nova região com a cor correta
+			
+			desenho.setColor(cor);
+			desenho.fillRect(pontoInicial.x, pontoInicial.y, largura, altura); // Colore a região com a cor escolhida
+		}
+		
+		return novaLista;
+	}
+	
+	
+	public ArrayList<Matriz> realizaConvolucao(ArrayList<Matriz> listaMatrizes, ArrayList<Matriz> listaTemplate, int tamImagem, int tamTemplate)
+	{
+		ArrayList<Matriz> novaLista = new ArrayList<Matriz>();
+		int[][] imagem = new int[tamImagem+1][tamImagem+1];
+		int[][] template = new int[tamTemplate+1][tamTemplate+1];
+		
+		int[][] convolucao = new int[tamImagem+1][tamImagem+1];
+		
+		if(listaMatrizes.size() > 0 && listaTemplate.size() > 0) {
+			
+			for(Matriz aux : listaMatrizes) {
+				imagem[aux.getLinha()][aux.getColuna()] = aux.getColor().getRGB();
+			}
+			
+			for(Matriz aux : listaTemplate) {
+				template[aux.getLinha()][aux.getColuna()] = aux.getColor().getRGB();
+			}
+			
+			// CONVOLUÇÃO
+			int proporcaoLargura = tamTemplate >>> 1;
+			int proporcaoAltura = tamTemplate >>> 1;
+			
+			for(int i = tamImagem-1; i >= 0; i--) {
+				
+				for(int j = tamImagem-1; j >= 0; j--) {
+					
+					double novoValor = 0.0;
+					for(int m = tamTemplate-1; m >= 0; m--) {
+						
+						for(int n = tamTemplate-1; n >= 0; n--) {
+							
+							int ii = i+m-proporcaoLargura;
+							int jj = j+n-proporcaoAltura;
+							
+							if(ii >=0 && ii < tamImagem && jj >=0 && jj < tamImagem) {
+								novoValor += template[m][n] * imagem[ii][jj];
+							}
+							
+						}
+					}
+					convolucao[i][j] = (int) Math.round(novoValor);
+				}
+			}
+			// FIM DA CONVOLUÇÃO
+			
+			// Converte matriz para lista
+			for(int i = 0; i < tamImagem; i++) {
+				for(int j = 0; j < tamImagem; j++) {
+					
+					for(Matriz aux : listaMatrizes) {
+						if(aux.getLinha() == i+1 && aux.getColuna() == j+1) {
+							aux.setColor(new Color(convolucao[i][j]));
+							novaLista.add(aux);
+						}
+					}
+					
+				}
+			}
+		}
+		
+		return novaLista;
 	}
 }
