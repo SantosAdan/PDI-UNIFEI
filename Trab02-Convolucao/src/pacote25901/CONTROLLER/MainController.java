@@ -12,6 +12,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import javax.swing.JColorChooser;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
@@ -21,18 +22,23 @@ import pacote25901.VIEW.InterfaceGrafica;
 public class MainController implements ActionListener, MouseListener, MouseMotionListener {
 	
 	private InterfaceGrafica pnCenario;
-	private Point pontoInicial, pontoFinal, pontoSelecionado;
+	private Point pontoInicialImagem, pontoFinalImagem, pontoInicialTemplate, pontoFinalTemplate, pontoSelecionado;
 	
 	private ArrayList<Matriz> listaMatrizes = new ArrayList<Matriz>();
+	private ArrayList<Matriz> listaTemplate = new ArrayList<Matriz>();
+	private ArrayList<Matriz> listaConvolucao = new ArrayList<Matriz>();
 	private final String DRAWING = "drawing";
+	private final String DRAWING_TEMPLATE = "drawing template";
 	private final String COLORING = "coloring";
+	private final String COLORING_TEMPLATE = "coloring template";
+	private final String IDLE = "idle";
 	private String status;
+	private Color corSelecionada;
 	
-	ArrayList<Point> listaPontos = new ArrayList<Point> ();
-	ArrayList<Point> listaPontosLoad = new ArrayList<Point> ();
-	ArrayList<Point> listaPontosSave = new ArrayList<Point> ();
-	ArrayList<Point> listaaux = new ArrayList<Point> ();
-	ArrayList<Point> listaTodosPontos = new ArrayList<Point>();
+	Point[][] matrizPontos = new Point[5][5];
+    Color[][] matrizCores = new Color[5][5];
+    ArrayList<Point> listaPontosLoad = new ArrayList<Point> ();
+    ArrayList<Color> listaCoresLoad = new ArrayList<Color> ();
 	
 	//****************************************************************************	
 	public MainController()
@@ -52,33 +58,54 @@ public class MainController implements ActionListener, MouseListener, MouseMotio
 		if(comando.equals("btEnd")) {
 			System.exit(0);	
 		}
+		else if(comando.equals("btInstrucoes")){
+			pnCenario.exibeInstrucoes();
+		}
 		else if(comando.equals("btColorir")){
 			status = COLORING;
+			corSelecionada = JColorChooser.showDialog(null, "Escolha uma cor", Color.BLACK);
 		}
-		else if(comando.equals("btCarrega")){		
-//			preenchimentocontrol preenchimentoCtrl = new preenchimentocontrol (pnCenario.iniciarGraphics());
-//	        int i;
+		else if(comando.equals("btColorirTemplate")){
+			status = COLORING_TEMPLATE;
+			corSelecionada = JColorChooser.showDialog(null, "Escolha uma cor", Color.BLACK);
+		}
+		else if(comando.equals("btTrocaCor")) {
+			corSelecionada = JColorChooser.showDialog(null, "Escolha uma cor", Color.BLACK);
+		}
+		else if(comando.equals("btConvoluir")) {
+			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
+			listaConvolucao = matrizCtrl.realizaConvolucao(listaMatrizes, listaTemplate, 5, 3);
+			
+			//pnCenario.limpaOutputPanel();
+			matrizCtrl.desenhaMatrizLista(listaConvolucao, pontoInicialImagem, pontoFinalImagem, 5);
+			
+		}
+		else if(comando.equals("btCarrega")) {		
 			carregaArquivo();
 			
-//			listaaux = preenchimentoCtrl.ordena(listaTodosPontos);
-//			preenchimentoCtrl.preenchimento(listaaux);
-//			for(i=0;i<listaTodosPontos.size();i++){
-//				System.out.println(listaTodosPontos.get(i));
-//			}
-//			System.out.println(i);
-	        	        
-
+			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
+			System.out.println(listaMatrizes.get(0).getPontoInicial());
+			listaMatrizes = matrizCtrl.desenhaMatrizLoad(listaMatrizes, 5);
+			pontoInicialImagem = listaMatrizes.get(0).getPontoInicial();
+			pontoFinalImagem = listaMatrizes.get(listaMatrizes.size()-1).getPontoFinal();
+			
+			status = DRAWING_TEMPLATE;
 		}
-		else if(comando.equals("btSalva")){
+		else if(comando.equals("btSalva")) {
+			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
+			matrizPontos = matrizCtrl.paraMatriz(listaMatrizes, 5);
+			matrizCores = matrizCtrl.paraMatrizCores(listaMatrizes, 5);
 			saveFile();
 			
 		}
 		else if(comando.equals("btLimpar")){
 			listaMatrizes.clear();
+			listaTemplate.clear();
+			listaConvolucao.clear();
+			
 			status = DRAWING;
 			pnCenario.limpaOutputPanel();
 		}
-			
 	}	
 	
 	//Metodo para desenhar um circulo ao clicar
@@ -90,136 +117,152 @@ public class MainController implements ActionListener, MouseListener, MouseMotio
 	}
 	
 	// LER ARQUIVO DE PONTOS
-	private String carregaArquivo()
-	{
-		String         registro, registro_lido[], nomeArquivoLido,
-		               registro_aux, mensagem;
-		FileReader     fr;
-		BufferedReader br;
-		JFileChooser   escolheArquivos;
-		File           nomeArquivo, diretorio;
-		int            i, xa, ya, xb, yb, xc, yc, qL, resultado, linhaLida[], tamanho;
-		Point          pa, pb, pc;
-
-		// ABRINDO ARQUIVO DE DADOS
-		escolheArquivos = new JFileChooser();
-		diretorio = new File ( "..\\" );
-		escolheArquivos.setCurrentDirectory(diretorio);
-		escolheArquivos.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-		resultado = escolheArquivos.showOpenDialog(escolheArquivos);
-		nomeArquivoLido = null;
-		MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
-		
-		if ( resultado != JFileChooser.CANCEL_OPTION ) {
-
-			nomeArquivo = escolheArquivos.getSelectedFile();
-			try {	
-
-				fr        = new FileReader ( nomeArquivo );
-				br        = new BufferedReader ( fr );
-				linhaLida = new int[8];
-
-				registro  = br.readLine();
-				while ( registro != null ) {
-
-					registro_lido = registro.split(" ");
-					qL = 0;
-					tamanho = registro_lido.length;
-					for ( i = 0; i < tamanho; i++ ) {
-						registro_aux = registro_lido[i];
-						if( registro_aux != null && registro_aux.length() > 0 ) {
-							linhaLida[qL] = Integer.parseInt( registro_aux );
-							qL++;
-						}
-					}
-
-					xa   = linhaLida[0];
-					ya   = linhaLida[1];
-					pa   = new Point ( xa, ya );
-					xb   = linhaLida[2];
-					yb   = linhaLida[3];
-					pb   = new Point ( xb, yb );
-					xc   = linhaLida[4];
-					yc   = linhaLida[5];
-					pc   = new Point ( xc, yc );
-					listaPontosLoad.add(pc);
-					listaPontosLoad.add(pa);
-					listaPontosLoad.add(pb);
-					
-					listaPontosLoad.clear();
-								
-					// NOVO REGISTRO
-					registro = br.readLine();
-				}
-				listaTodosPontos = matrizCtrl.listaTodosPontos;
-				br.close();
-
-				nomeArquivoLido = nomeArquivo.toString();
-
-			} catch ( FileNotFoundException e ) {
-				mensagem = "File " + nomeArquivo + " does not exist";
-				JOptionPane.showMessageDialog( null, mensagem, "", 
+    private String carregaArquivo()
+    {
+        String         registro, registro_lido[], nomeArquivoLido,
+                       registro_aux, mensagem;
+        FileReader     fr;
+        BufferedReader br;
+        JFileChooser   escolheArquivos;
+        File           nomeArquivo, diretorio;
+        int            i, altura=0, largura=0, qL, resultado, linhaLida[], tamanhoRegistro;
+ 
+        // ABRINDO ARQUIVO DE DADOS
+        escolheArquivos = new JFileChooser();
+        diretorio = new File ( "..\\" );
+        escolheArquivos.setCurrentDirectory(diretorio);
+        escolheArquivos.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+        resultado = escolheArquivos.showOpenDialog(escolheArquivos);
+        nomeArquivoLido = null;
+       
+        if ( resultado != JFileChooser.CANCEL_OPTION ) {
+ 
+            nomeArquivo = escolheArquivos.getSelectedFile();
+            try {  
+                listaMatrizes.clear();
+                fr        = new FileReader ( nomeArquivo );
+                br        = new BufferedReader ( fr );
+                linhaLida = new int[10];
+ 
+                registro  = br.readLine();
+                while ( registro != null ) {
+ 
+                    registro_lido = registro.split(" ");
+                    qL = 0;
+                    tamanhoRegistro = registro_lido.length;
+                    for ( i = 0; i < tamanhoRegistro; i++ ) {
+                        registro_aux = registro_lido[i];
+                        if( registro_aux != null && registro_aux.length() > 0 ) {
+                            linhaLida[qL] = Integer.parseInt( registro_aux );
+                            qL++;
+                        }
+                    }
+                    if(tamanhoRegistro==10){
+                        listaPontosLoad.add(new Point(linhaLida[0],linhaLida[1]));
+                        listaPontosLoad.add(new Point(linhaLida[2],linhaLida[3]));
+                        listaPontosLoad.add(new Point(linhaLida[4],linhaLida[5]));
+                        listaPontosLoad.add(new Point(linhaLida[6],linhaLida[7]));
+                        listaPontosLoad.add(new Point(linhaLida[8],linhaLida[9]));
+                    }else if(tamanhoRegistro==5){
+                        listaCoresLoad.add(new Color(linhaLida[0]));
+                        listaCoresLoad.add(new Color(linhaLida[1]));
+                        listaCoresLoad.add(new Color(linhaLida[2]));
+                        listaCoresLoad.add(new Color(linhaLida[3]));
+                        listaCoresLoad.add(new Color(linhaLida[4]));
+                    }else{
+                        altura = linhaLida[0];
+                        largura = linhaLida[1];
+                    }      
+                   
+ 
+                    // NOVO REGISTRO
+                    registro = br.readLine();
+                }
+                for(int x=0;x<5*5;x++){
+                    Matriz matriz =  new Matriz();
+                    matriz.setPontoInicial(listaPontosLoad.get(x));
+                    matriz.setPontoFinal(new Point((int) listaPontosLoad.get(x).getX()+largura,(int) listaPontosLoad.get(x).getY()+altura ));
+                    matriz.setColor(listaCoresLoad.get(x));
+                   
+                    listaMatrizes.add(matriz);
+                }
+ 
+               
+                br.close();
+ 
+                nomeArquivoLido = nomeArquivo.toString();
+ 
+            } catch ( FileNotFoundException e ) {
+                mensagem = "File " + nomeArquivo + " does not exist";
+                JOptionPane.showMessageDialog( null, mensagem, "",
                     JOptionPane.INFORMATION_MESSAGE );
-			} catch ( IOException e ) {
-				mensagem = "Error at file: " + nomeArquivo;
-				JOptionPane.showMessageDialog( null, mensagem, "", 
+            } catch ( IOException e ) {
+                mensagem = "Error at file: " + nomeArquivo;
+                JOptionPane.showMessageDialog( null, mensagem, "",
                   JOptionPane.INFORMATION_MESSAGE );
-			}
-		}
-
-		return nomeArquivoLido;
-	}
+            }
+        }
+ 
+        return nomeArquivoLido;
+    }
 	
 	// SALVAR ARQUIVO DE PONTOS
-	public String saveFile()
-	{
-		String         nomeArquivoSalvo, mensagem;
-		BufferedWriter     out = null;
-		JFileChooser   escolheArquivos;
-		File           nomeArquivo, diretorio;
-		int            resultado;
-		// ABRINDO ARQUIVO DE DADOS
-		escolheArquivos = new JFileChooser();
-		diretorio = new File ( "..\\" );
-		escolheArquivos.setCurrentDirectory(diretorio);
-		escolheArquivos.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-		resultado = escolheArquivos.showOpenDialog(escolheArquivos);
-		nomeArquivoSalvo = null;
-
-		if ( resultado != JFileChooser.CANCEL_OPTION ) {
-
-			nomeArquivo = escolheArquivos.getSelectedFile();
-
-			try {	
-
-				out = new BufferedWriter(new FileWriter ( nomeArquivo ));
-//				for(int k=0;k<listaPontosSave.size();k++){
-//					System.out.println(listaPontosSave.get(k).getX()+"/"+listaPontosSave.get(k).getY());
-//					out.write( (int) listaPontosSave.get(k).getX()+" ");
-//					out.write( (int) listaPontosSave.get(k).getY()+" ");
-//				}
-				for(int k=0;k<listaaux.size();k++){
-					out.write( (int) listaaux.get(k).getX()+" ");
-					out.write( (int) listaaux.get(k).getY()+" ");
-				}
-				out.newLine();
-				out.close();
-
-				nomeArquivoSalvo = nomeArquivo.toString();
-
-			} catch ( FileNotFoundException e ) {
-				mensagem = "File " + nomeArquivo + " does not exist";
-				JOptionPane.showMessageDialog( null, mensagem, "", 
+    public String saveFile()
+    {
+        String         nomeArquivoSalvo, mensagem;
+        BufferedWriter     out = null;
+        JFileChooser   escolheArquivos;
+        File           nomeArquivo, diretorio;
+        int            resultado;
+        // ABRINDO ARQUIVO DE DADOS
+        escolheArquivos = new JFileChooser();
+        diretorio = new File ( "..\\" );
+        escolheArquivos.setCurrentDirectory(diretorio);
+        escolheArquivos.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+        resultado = escolheArquivos.showOpenDialog(escolheArquivos);
+        nomeArquivoSalvo = null;
+        MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
+       
+        if ( resultado != JFileChooser.CANCEL_OPTION ) {
+ 
+            nomeArquivo = escolheArquivos.getSelectedFile();
+ 
+            try {  
+            	int tamanho = 5;
+                out = new BufferedWriter(new FileWriter ( nomeArquivo ));              
+                for(int i=1;i<=tamanho;i++){
+                    for(int u=1;u<=tamanho;u++){
+                        out.write((int) matrizPontos[i][u].getX()+" "+ (int) matrizPontos[i][u].getY()+" ");
+                    }
+                    out.newLine();
+                }
+                for(int i=1;i<=tamanho;i++){
+                    for(int u=1;u<=tamanho;u++){
+                        out.write((int) matrizCores[i][u].getRGB()+" ");
+                    }
+                    out.newLine();
+                }
+                int altura = (int) matrizCtrl.encontraAltura(listaMatrizes.get(0).getPontoInicial(), listaMatrizes.get(0).getPontoFinal());
+                int largura = (int) matrizCtrl.encontraLargura(listaMatrizes.get(0).getPontoInicial(), listaMatrizes.get(0).getPontoFinal());
+                out.write(altura+" "+largura);
+                out.newLine();
+                out.close();
+ 
+                nomeArquivoSalvo = nomeArquivo.toString();
+ 
+            } catch ( FileNotFoundException e ) {
+                mensagem = "File " + nomeArquivo + " does not exist";
+                JOptionPane.showMessageDialog( null, mensagem, "",
                     JOptionPane.INFORMATION_MESSAGE );
-			} catch ( IOException e ) {
-				mensagem = "Error at file: " + nomeArquivo;
-				JOptionPane.showMessageDialog( null, mensagem, "", 
+            } catch ( IOException e ) {
+                mensagem = "Error at file: " + nomeArquivo;
+                JOptionPane.showMessageDialog( null, mensagem, "",
                   JOptionPane.INFORMATION_MESSAGE );
-			}
-		}
-
-		return nomeArquivoSalvo;
-	}
+            }
+        }
+ 
+        return nomeArquivoSalvo;
+    }
 
 	/**
 	 * 
@@ -250,35 +293,62 @@ public class MainController implements ActionListener, MouseListener, MouseMotio
 	@Override
 	public void mousePressed(MouseEvent e)
 	{
+		// DESENHANDO IMAGEM
 		if(status.equals(DRAWING)) {
-			pontoInicial = e.getPoint();
-			desenhaCirculo(pontoInicial, Color.RED);
+			pontoInicialImagem = e.getPoint();
+			desenhaCirculo(pontoInicialImagem, Color.RED);
 		}
+		// DESENHANDO TEMPLATE
+		else if(status.equals(DRAWING_TEMPLATE)) {
+			pontoInicialTemplate = e.getPoint();
+			desenhaCirculo(pontoInicialTemplate, Color.RED);
+		}
+		// COLORINDO IMAGEM
 		else if(status.equals(COLORING)) {
 			pontoSelecionado = e.getPoint();
 			
 			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
-			Matriz matrizColorir = matrizCtrl.verificaContido(listaMatrizes, pontoSelecionado);
-			matrizCtrl.colorirMatriz(matrizColorir, Color.BLUE);
+			listaMatrizes = matrizCtrl.colorirMatriz(listaMatrizes, pontoSelecionado, corSelecionada);
+		}
+		// COLORINDO TEMPLATE
+		else if(status.equals(COLORING_TEMPLATE)) {
+			pontoSelecionado = e.getPoint();
+			
+			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
+			listaTemplate = matrizCtrl.colorirMatriz(listaTemplate, pontoSelecionado, corSelecionada);
 		}
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e)
 	{
+		// DESENHANDO IMAGEM
 		if(status.equals(DRAWING)) {
-			pontoFinal = e.getPoint();
-			desenhaCirculo(pontoFinal, Color.RED);
+			pontoFinalImagem = e.getPoint();
+			desenhaCirculo(pontoFinalImagem, Color.RED);
 			
-			desenhaCirculo(pontoInicial, Color.LIGHT_GRAY);
-			desenhaCirculo(pontoFinal, Color.LIGHT_GRAY);
+			desenhaCirculo(pontoInicialImagem, Color.DARK_GRAY);
+			desenhaCirculo(pontoFinalImagem, Color.DARK_GRAY);
 			
 			// DESENHA RETANGULO
 			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
-			listaMatrizes = matrizCtrl.desenhaMatriz(pontoInicial, pontoFinal);
-		}
-		else if(status.equals(COLORING)) {
+			listaMatrizes = matrizCtrl.desenhaMatriz(pontoInicialImagem, pontoFinalImagem, 5);
 			
+			status = DRAWING_TEMPLATE;
+		}
+		// DESENHANDO TEMPLATE
+		else if(status.equals(DRAWING_TEMPLATE)) {
+			pontoFinalTemplate = e.getPoint();
+			desenhaCirculo(pontoFinalTemplate, Color.RED);
+			
+			desenhaCirculo(pontoInicialTemplate, Color.DARK_GRAY);
+			desenhaCirculo(pontoFinalTemplate, Color.DARK_GRAY);
+			
+			// DESENHA RETANGULO
+			MatrizController matrizCtrl = new MatrizController(pnCenario.iniciarGraphics());
+			listaTemplate = matrizCtrl.desenhaMatriz(pontoInicialTemplate, pontoFinalTemplate, 3);
+			
+			status = IDLE;
 		}
 	}
 	

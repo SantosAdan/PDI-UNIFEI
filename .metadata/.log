@@ -124,3 +124,953 @@ Caused by: java.lang.IllegalStateException: Application does not have an active 
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
 	... 95 more
+!SESSION 2017-03-13 17:53:42.952 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-13 17:53:59.476
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-14 11:11:04.361 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-14 11:11:58.459
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-14 17:03:24.815 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-14 17:03:37.811
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-14 17:32:44.356 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-14 17:33:01.000
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-14 23:59:49.450 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-15 00:00:08.940
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-15 08:11:27.727 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-15 08:12:04.483
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-21 18:54:26.100 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-21 18:55:02.532
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-03-21 18:55:40.860
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:29)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:909)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:341)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:524)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:76)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:127)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:132)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:229)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:188)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$13.run(MarketplaceCatalog.java:279)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-03-21 18:55:47.721
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out. ; version: 2.0.3.v20161205-0933
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.readV3Record(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2017-03-21 18:56:02.023
+!MESSAGE Failed to stream using org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport@3c435056 - falling back to org.eclipse.epp.internal.mpc.core.util.TransportFactory$1@6fb77d4f: Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:226)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.197] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.ExecutorClientWrapper.execute(ExecutorClientWrapper.java:61)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:198)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:91)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:50)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:211)
+	... 3 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 18 more
+Contains: Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+org.apache.http.conn.HttpHostConnectException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.197] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.ExecutorClientWrapper.execute(ExecutorClientWrapper.java:61)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:198)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:91)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:50)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:211)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 18 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2017-03-21 18:56:02.024
+!MESSAGE Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.197] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.ExecutorClientWrapper.execute(ExecutorClientWrapper.java:61)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:198)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:91)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:50)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:211)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 18 more
+!SUBENTRY 2 org.eclipse.epp.mpc.core 4 0 2017-03-21 18:56:02.024
+!MESSAGE Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.197] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.ExecutorClientWrapper.execute(ExecutorClientWrapper.java:61)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:198)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:91)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:50)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:211)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 18 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2017-03-21 18:56:02.024
+!MESSAGE Connection failed
+
+This is most often caused by a problem with your internet connection. Please check your internet connection and retry.
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to marketplace.eclipse.org:80 [marketplace.eclipse.org/198.41.30.197] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.ExecutorClientWrapper.execute(ExecutorClientWrapper.java:61)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.execute(HttpClientTransport.java:198)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.executeImpl(RequestTemplate.java:91)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:50)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.HttpClientTransport.stream(HttpClientTransport.java:211)
+	at org.eclipse.epp.internal.mpc.core.util.FallbackTransportFactory$FallbackTransport.stream(FallbackTransportFactory.java:68)
+	at org.eclipse.epp.internal.mpc.ui.catalog.ResourceProvider$1.run(ResourceProvider.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 18 more
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-03-21 19:12:12.380
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:212)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-03-22 08:08:02.390 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-22 08:08:37.484
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2017-03-22 08:08:38.272
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 2.0.3.v20161205-0933
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-03-22 08:25:50.906
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:212)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-03-22 08:28:18.663 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-22 08:28:30.518
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-22 23:44:45.121 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-22 23:47:28.585
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-22 23:57:29.153 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-22 23:57:51.421
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-03-23 00:00:49.979
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-03-23 00:00:49.979
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:49.979
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:49.979
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-03-23 00:00:49.979
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE Software being installed: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE Software currently installed: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:49.979
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE Java implementation of Git 4.4.0.201606070830-r (org.eclipse.jgit.feature.jar 4.4.0.201606070830-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.jar 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.jar 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:49.979
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE From: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE To: org.eclipse.jgit.feature.group [4.6.1,4.7.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:49.979
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE From: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.4.1.201607150455-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:49.979
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE From: Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:49.979
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.6.1.201703071140-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-03-23 00:00:50.051
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-03-23 00:00:50.051
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:50.051
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:50.051
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-03-23 00:00:50.051
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.051
+!MESSAGE Software being installed: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.051
+!MESSAGE Software currently installed: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.052
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE Java implementation of Git 4.4.0.201606070830-r (org.eclipse.jgit.feature.jar 4.4.0.201606070830-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.jar 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.jar 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.052
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE From: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE To: org.eclipse.jgit.feature.group [4.6.1,4.7.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.052
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE From: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.4.1.201607150455-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.052
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE From: Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.052
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.6.1.201703071140-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-03-23 00:00:50.073
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-03-23 00:00:50.073
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:50.073
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:50.073
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-03-23 00:00:50.073
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE Software being installed: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE Software currently installed: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.073
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE Java implementation of Git 4.4.0.201606070830-r (org.eclipse.jgit.feature.jar 4.4.0.201606070830-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.jar 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.jar 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.073
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE From: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE To: org.eclipse.jgit.feature.group [4.6.1,4.7.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.073
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE From: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.4.1.201607150455-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.073
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE From: Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.073
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.6.1.201703071140-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-03-23 00:00:50.078
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2017-03-23 00:00:50.078
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:50.078
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2017-03-23 00:00:50.078
+!MESSAGE "Git integration for Eclipse - Task focused interface" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2017-03-23 00:00:50.078
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE Software being installed: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE Software currently installed: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.078
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE Java implementation of Git 4.4.0.201606070830-r (org.eclipse.jgit.feature.jar 4.4.0.201606070830-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.jar 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.jar 4.4.1.201607150455-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.078
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE From: Git integration for Eclipse 4.6.1.201703071140-r (org.eclipse.egit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.078
+!MESSAGE To: org.eclipse.jgit.feature.group [4.6.1,4.7.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.079
+!MESSAGE From: Java implementation of Git 4.4.1.201607150455-r (org.eclipse.jgit.feature.group 4.4.1.201607150455-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.079
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.4.1.201607150455-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-03-23 00:00:50.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.079
+!MESSAGE From: Java implementation of Git 4.6.1.201703071140-r (org.eclipse.jgit.feature.group 4.6.1.201703071140-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-03-23 00:00:50.079
+!MESSAGE To: org.eclipse.jgit.feature.jar [4.6.1.201703071140-r]
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 00:05:00.882
+!MESSAGE  WARN [2017-03-23 00:05:00,832] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 00:05:00.889
+!MESSAGE  WARN [2017-03-23 00:05:00,888] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 00:05:00.896
+!MESSAGE  WARN [2017-03-23 00:05:00,895] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-03-23 00:05:01.802 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-23 00:10:04.777
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.security 1 0 2017-03-23 00:16:21.827
+!MESSAGE New keyring password generated. 
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:35:11.068
+!MESSAGE  WARN [2017-03-23 02:35:11,063] (ComponentResource.java:loadFromFile:430) - File 'src/package.xml' does not exist
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.113
+!MESSAGE  WARN [2017-03-23 02:41:15,110] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Dataloader_Bulk.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.125
+!MESSAGE  WARN [2017-03-23 02:41:15,124] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Forcecom_IDE.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.137
+!MESSAGE  WARN [2017-03-23 02:41:15,132] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Dataloader_Partner.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.149
+!MESSAGE  WARN [2017-03-23 02:41:15,148] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_Mobile_Dashboards.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.161
+!MESSAGE  WARN [2017-03-23 02:41:15,160] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Forcecom_Migration_Tool.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.171
+!MESSAGE  WARN [2017-03-23 02:41:15,170] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_for_Outlook.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.180
+!MESSAGE  WARN [2017-03-23 02:41:15,179] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_Touch.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.189
+!MESSAGE  WARN [2017-03-23 02:41:15,188] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce Connected Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Workbench.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.197
+!MESSAGE  WARN [2017-03-23 02:41:15,196] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_for_Android.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.208
+!MESSAGE  WARN [2017-03-23 02:41:15,207] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_for_BlackBerry.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.217
+!MESSAGE  WARN [2017-03-23 02:41:15,214] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_Desktop.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.227
+!MESSAGE  WARN [2017-03-23 02:41:15,226] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce_Chatterbox.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.234
+!MESSAGE  WARN [2017-03-23 02:41:15,233] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Chatter_for_iOS.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.241
+!MESSAGE  WARN [2017-03-23 02:41:15,240] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:SalesforceA.
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 02:41:15.247
+!MESSAGE  WARN [2017-03-23 02:41:15,246] (ProjectController.java:handleRetrieveResults:694) - Failed to retrieve: 'Salesforce1 and Chatter Apps/package.xml': Metadata API received improper input. Please ensure file name and capitalization is correct. Load of metadata from db failed for metadata of type:ConnectedApp and file name:Salesforce1_for_Windows.
+
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2017-03-23 00:00:31.802
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2017-03-23 00:00:31.802
+!MESSAGE session context was:(profile=C__Users_Adan Santos_eclipse_java-neon_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.client,0.18.0.v20170220163122
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.model,0.18.0.v20170220163122
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,com.gradleware.tooling.utils,0.18.0.v20170220163122
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.branding,2.0.1.v20170302-1039
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.core,2.0.1.v20170302-1039
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.stsmigration,2.0.1.v20170302-1039
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.buildship.ui,2.0.1.v20170302-1039
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: osgi.bundle,org.gradle.toolingapi,3.4.0.v20170220163122
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-03-23 00:00:31.802
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.buildship,2.0.1.v20170302-1039
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 00:09:39.411
+!MESSAGE  WARN [2017-03-23 00:09:39,409] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 00:09:39.421
+!MESSAGE  WARN [2017-03-23 00:09:39,420] (DescribeObjectRegistry.java:clearCache:663) - Clearing cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 00:09:39.427
+!MESSAGE  WARN [2017-03-23 00:09:39,426] (MetadataFactory.java:clearCache:128) - Clearing the following cached metadata stubs
+
+!SESSION 2017-03-23 08:25:59.278 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-23 08:26:11.966
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 08:26:45.667
+!MESSAGE  WARN [2017-03-23 08:26:45,661] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 08:26:45.674
+!MESSAGE  WARN [2017-03-23 08:26:45,673] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-23 08:26:45.681
+!MESSAGE  WARN [2017-03-23 08:26:45,680] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-03-28 17:51:09.598 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-28 17:52:11.977
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10009 2017-03-28 17:58:03.428
+!MESSAGE Participant 'com.salesforce.ide.ui.refactoring.deleteParticipant' removed due to the following exception
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.salesforce.ide.core.expressions.isSourceResource to type class org.eclipse.jdt.internal.core.CompilationUnit
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.ltk.internal.core.refactoring.ParticipantDescriptor.matches(ParticipantDescriptor.java:76)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantExtensionPoint.getParticipants(ParticipantExtensionPoint.java:93)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantManager.loadDeleteParticipants(ParticipantManager.java:166)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantManager.loadDeleteParticipants(ParticipantManager.java:146)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.DeleteModifications.loadParticipants(DeleteModifications.java:141)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.loadParticipants(JavaDeleteProcessor.java:171)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:231)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:83)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:119)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:207)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2017-03-28 17:58:03.475
+!MESSAGE No property tester contributes a property com.salesforce.ide.core.expressions.isSourceResource to type class org.eclipse.jdt.internal.core.CompilationUnit
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-28 20:08:48.778
+!MESSAGE  WARN [2017-03-28 20:08:48,742] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-28 20:08:48.784
+!MESSAGE  WARN [2017-03-28 20:08:48,783] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-28 20:08:48.790
+!MESSAGE  WARN [2017-03-28 20:08:48,789] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-03-29 09:17:43.107 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-29 09:18:17.346
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-29 09:22:33.667
+!MESSAGE  WARN [2017-03-29 09:22:33,630] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-29 09:22:33.673
+!MESSAGE  WARN [2017-03-29 09:22:33,672] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-03-29 09:22:33.678
+!MESSAGE  WARN [2017-03-29 09:22:33,678] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-04-04 17:22:46.168 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 4 567 2017-04-04 17:22:59.773
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-04-04 17:22:59.773
+!MESSAGE Could not read metadata for 'AppHistograma_PDI'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'AppHistograma_PDI' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-04-04 17:22:59.788
+!MESSAGE The project description file (.project) for 'AppHistograma_PDI' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-04-04 17:23:19.734
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-04-04 17:48:15.122
+!MESSAGE The project description file (.project) for 'AppHistograma_PDI' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-04-04 19:39:10.278
+!MESSAGE  WARN [2017-04-04 19:39:10,249] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-04-04 19:39:10.286
+!MESSAGE  WARN [2017-04-04 19:39:10,285] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-04-04 19:39:10.295
+!MESSAGE  WARN [2017-04-04 19:39:10,294] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
