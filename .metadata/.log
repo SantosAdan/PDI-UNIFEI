@@ -1074,3 +1074,392 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY com.salesforce.ide.core 2 0 2017-04-04 19:39:10.295
 !MESSAGE  WARN [2017-04-04 19:39:10,294] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
 
+!SESSION 2017-06-07 09:12:29.205 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-07 09:13:14.422
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-07 10:09:37.402
+!MESSAGE  WARN [2017-06-07 10:09:37,197] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-07 10:09:37.475
+!MESSAGE  WARN [2017-06-07 10:09:37,474] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-07 10:09:37.484
+!MESSAGE  WARN [2017-06-07 10:09:37,483] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-06-14 07:31:02.916 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-14 07:31:58.076
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10009 2017-06-14 08:11:06.541
+!MESSAGE Participant 'com.salesforce.ide.ui.refactoring.deleteParticipant' removed due to the following exception
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.salesforce.ide.core.expressions.isSourceResource to type class org.eclipse.jdt.internal.core.CompilationUnit
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.ltk.internal.core.refactoring.ParticipantDescriptor.matches(ParticipantDescriptor.java:76)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantExtensionPoint.getParticipants(ParticipantExtensionPoint.java:93)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantManager.loadDeleteParticipants(ParticipantManager.java:166)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantManager.loadDeleteParticipants(ParticipantManager.java:146)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.DeleteModifications.loadParticipants(DeleteModifications.java:141)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.loadParticipants(JavaDeleteProcessor.java:171)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:231)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:83)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:119)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:207)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2017-06-14 08:11:06.542
+!MESSAGE No property tester contributes a property com.salesforce.ide.core.expressions.isSourceResource to type class org.eclipse.jdt.internal.core.CompilationUnit
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-14 11:11:20.977
+!MESSAGE  WARN [2017-06-14 11:11:20,860] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-14 11:11:21.019
+!MESSAGE  WARN [2017-06-14 11:11:21,018] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-14 11:11:21.027
+!MESSAGE  WARN [2017-06-14 11:11:21,026] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-06-21 07:48:05.204 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-21 07:49:10.064
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2017-06-21 13:26:26.246
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=252
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-06-21 13:27:13.630
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:29)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:909)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:341)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:524)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:76)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:127)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:132)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:229)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:390)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:188)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog$13.run(MarketplaceCatalog.java:279)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2017-06-21 13:42:48.116 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-06-21 13:42:59.328
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-21 13:43:42.855
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2017-06-21 13:58:23.955
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.getVMName(JREContainerInitializer.java:274)
+	at org.eclipse.jdt.internal.launching.JREContainerInitializer.getExecutionEnvironmentId(JREContainerInitializer.java:221)
+	at org.eclipse.jdt.launching.JavaRuntime.getExecutionEnvironmentId(JavaRuntime.java:2008)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsComboBlock.setPath(JREsComboBlock.java:600)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsComboBlock.showPrefPage(JREsComboBlock.java:308)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsComboBlock.access$9(JREsComboBlock.java:294)
+	at org.eclipse.jdt.internal.debug.ui.jres.JREsComboBlock$6.handleEvent(JREsComboBlock.java:266)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1203)
+	at org.eclipse.debug.ui.DebugUITools$3.run(DebugUITools.java:629)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:637)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:570)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:82)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 13:58:39.627
+!MESSAGE  WARN [2017-06-21 13:58:39,604] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 13:58:39.635
+!MESSAGE  WARN [2017-06-21 13:58:39,634] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 13:58:39.640
+!MESSAGE  WARN [2017-06-21 13:58:39,639] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-06-21 13:58:43.530 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-21 13:59:01.635
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 14:21:32.360
+!MESSAGE  WARN [2017-06-21 14:21:32,349] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 14:21:32.365
+!MESSAGE  WARN [2017-06-21 14:21:32,365] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 14:21:32.373
+!MESSAGE  WARN [2017-06-21 14:21:32,372] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-06-21 14:23:24.799 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-21 14:23:39.992
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10009 2017-06-21 14:57:00.171
+!MESSAGE Participant 'com.salesforce.ide.ui.refactoring.deleteParticipant' removed due to the following exception
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.salesforce.ide.core.expressions.isSourceResource to type class org.eclipse.jdt.internal.core.PackageFragment
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.ltk.internal.core.refactoring.ParticipantDescriptor.matches(ParticipantDescriptor.java:76)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantExtensionPoint.getParticipants(ParticipantExtensionPoint.java:93)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantManager.loadDeleteParticipants(ParticipantManager.java:166)
+	at org.eclipse.ltk.core.refactoring.participants.ParticipantManager.loadDeleteParticipants(ParticipantManager.java:146)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.DeleteModifications.loadParticipants(DeleteModifications.java:141)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaDeleteProcessor.loadParticipants(JavaDeleteProcessor.java:171)
+	at org.eclipse.ltk.core.refactoring.participants.ProcessorBasedRefactoring.checkFinalConditions(ProcessorBasedRefactoring.java:231)
+	at org.eclipse.ltk.core.refactoring.CheckConditionsOperation.run(CheckConditionsOperation.java:83)
+	at org.eclipse.ltk.core.refactoring.CreateChangeOperation.run(CreateChangeOperation.java:119)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:207)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2017-06-21 14:57:00.172
+!MESSAGE No property tester contributes a property com.salesforce.ide.core.expressions.isSourceResource to type class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 15:00:21.516
+!MESSAGE  WARN [2017-06-21 15:00:21,367] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 15:00:21.523
+!MESSAGE  WARN [2017-06-21 15:00:21,522] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 15:00:21.529
+!MESSAGE  WARN [2017-06-21 15:00:21,527] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-06-21 15:05:43.688 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-21 15:07:05.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 15:12:41.798
+!MESSAGE  WARN [2017-06-21 15:12:40,504] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 15:12:41.804
+!MESSAGE  WARN [2017-06-21 15:12:41,803] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-21 15:12:41.809
+!MESSAGE  WARN [2017-06-21 15:12:41,808] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
+!SESSION 2017-06-22 19:42:57.825 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-06-22 19:43:51.515
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adan Santos'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2017-06-22 19:57:36.319
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:212)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-22 20:03:55.513
+!MESSAGE  WARN [2017-06-22 20:03:55,437] (ConnectionFactory.java:clearCache:217) - No cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-22 20:03:55.542
+!MESSAGE  WARN [2017-06-22 20:03:55,541] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-06-22 20:03:55.549
+!MESSAGE  WARN [2017-06-22 20:03:55,548] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+
